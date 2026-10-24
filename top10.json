@@ -1,6 +1,18 @@
 {
     "Top10": [
         {
+            "id": 74,
+            "title": "Spider-Man: Across the Spider-Verse",
+            "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+            "year": "2023",
+            "type": "Action",
+            "poster": "SpiderManAcross_poster.jpg",
+            "logo": "SpiderManAcross_logo.png",
+            "background": "SpiderManAcross_back.jpg",
+            "rating": 8.7,
+            "trailer_id": "shW9i6k8cB0"
+        },
+        {
             "id": 35,
             "title": "The Lion King",
             "description": "A young lion prince begins an emotional journey of courage and self-discovery, learning the true meaning of responsibility, family, and embracing his rightful place in life.",
@@ -8,87 +20,21 @@
             "type": "Family",
             "poster": "lionKing_poster.webp",
             "logo": "lionKing_logo.png",
-            "background": "lionKing_back.jpg"
+            "background": "lionKing_back.jpg",
+            "rating": 8.5,
+            "trailer_id": "4sj1MT05lAA"
         },
         {
-            "id": 51,
-            "title": "Toy Story",
-            "description": "A group of beloved toys comes to life whenever humans are away, sharing unforgettable adventures that celebrate friendship, loyalty, courage, and the joy of growing together.",
-            "year": "1995",
-            "type": "Kids",
-            "poster": "toy1_poster.webp",
-            "logo": "toy1_logo.png",
-            "background": "toy1_back.jpg"
-        },
-        {
-            "id": 24,
-            "title": "Zootopia",
-            "description": "A determined rookie rabbit police officer teams up with a clever fox to solve a mysterious case, uncovering unexpected truths while proving that anyone can achieve greatness.",
-            "year": "2016",
-            "type": "Comedy",
-            "poster": "zootopia1_poster.webp",
-            "logo": "zootopia1_logo.png",
-            "background": "zootopia1_back.jpg"
-        },
-        {
-            "id": 16,
-            "title": "Kung Fu Panda",
-            "description": "An enthusiastic panda is unexpectedly chosen to become a legendary warrior, beginning an unforgettable adventure filled with courage, determination, friendship, and incredible martial arts battles.",
-            "year": "2008",
-            "type": "Comedy",
-            "poster": "panda1_poster.webp",
-            "logo": "panda1_logo.png",
-            "background": "panda1_back.jpg"
-        },
-        {
-            "id": 5,
-            "title": "How to Train Your Dragon",
-            "description": "A young Viking forms an unlikely friendship with a mysterious dragon, changing the future of his village while discovering courage, compassion, and the true meaning of being a hero.",
-            "year": "2010",
-            "type": "Adventure",
-            "poster": "dragon1_poster.webp",
-            "logo": "dragon1_logo.png",
-            "background": "dragon1_back.jpg"
-        },
-        {
-            "id": 42,
-            "title": "Coco",
-            "description": "A music-loving boy enters a magical world filled with unforgettable adventures, discovering the importance of family, memories, and following his dreams with courage and determination.",
-            "year": "2017",
-            "type": "Kids",
-            "poster": "coco_poster.webp",
-            "logo": "coco_logo.png",
-            "background": "coco_back.jpg"
-        },
-        {
-            "id": 31,
-            "title": "Frozen",
-            "description": "Two royal sisters embark on a breathtaking journey where love, courage, and hope help them overcome powerful magic while discovering the unbreakable bond that connects them forever.",
-            "year": "2013",
-            "type": "Family",
-            "poster": "frozen1_poster.webp",
-            "logo": "frozen1_logo.png",
-            "background": "frozen1_back.jpg"
-        },
-        {
-            "id": 33,
-            "title": "Inside Out",
-            "description": "Inside a young girl's mind, her emotions work together through joyful and challenging moments, revealing how memories, feelings, and personal growth shape every important experience.",
-            "year": "2015",
-            "type": "Family",
-            "poster": "insideOut1_poster.webp",
-            "logo": "insideOut1_logo.png",
-            "background": "insideOut1_back.jpg"
-        },
-        {
-            "id": 10,
-            "title": "Puss in Boots: The Last Wish",
-            "description": "Facing his greatest challenge yet, Puss in Boots begins an extraordinary journey to reclaim hope, confront his fears, and discover what truly makes every adventure worth living.",
-            "year": "2022",
-            "type": "Adventure",
-            "poster": "pussBoots2_poster.webp",
-            "logo": "pussBoots2_logo.png",
-            "background": "pussBoots2_back.jpg"
+            "id": 73,
+            "title": "Spider-Man: Into the Spider-Verse",
+            "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+            "year": "2018",
+            "type": "Action",
+            "poster": "SpiderManInto_poster.jpg",
+            "logo": "SpiderManInto_logo.png",
+            "background": "SpiderManInto_back.jpg",
+            "rating": 8.4,
+            "trailer_id": "tg52co5hO2I"
         },
         {
             "id": 40,
@@ -98,7 +44,81 @@
             "type": "Family",
             "poster": "wall_poster.webp",
             "logo": "wall_logo.png",
-            "background": "wall_back.jpg"
+            "background": "wall_back.jpg",
+            "rating": 8.4,
+            "trailer_id": "CZ1CATNvBgM"
+        },
+        {
+            "id": 42,
+            "title": "Coco",
+            "description": "A music-loving boy enters a magical world filled with unforgettable adventures, discovering the importance of family, memories, and following his dreams with courage and determination.",
+            "year": "2017",
+            "type": "Kids",
+            "poster": "coco_poster.webp",
+            "logo": "coco_logo.png",
+            "background": "coco_back.jpg",
+            "rating": 8.4,
+            "trailer_id": "Rvr68u6k5sI"
+        },
+        {
+            "id": 39,
+            "title": "Up",
+            "description": "An elderly dreamer and an adventurous young scout set off on an extraordinary journey where friendship, hope, and unforgettable discoveries prove that adventure can begin at any age.",
+            "year": "2009",
+            "type": "Family",
+            "poster": "up_poster.webp",
+            "logo": "up_logo.png",
+            "background": "up_back.jpg",
+            "rating": 8.3,
+            "trailer_id": "ORFWdXl_zJ4"
+        },
+        {
+            "id": 51,
+            "title": "Toy Story",
+            "description": "A group of beloved toys comes to life whenever humans are away, sharing unforgettable adventures that celebrate friendship, loyalty, courage, and the joy of growing together.",
+            "year": "1995",
+            "type": "Kids",
+            "poster": "toy1_poster.webp",
+            "logo": "toy1_logo.png",
+            "background": "toy1_back.jpg",
+            "rating": 8.3,
+            "trailer_id": "v-PjgYDrg70"
+        },
+        {
+            "id": 49,
+            "title": "Finding Nemo",
+            "description": "A devoted father crosses the vast ocean on an unforgettable adventure, discovering courage, friendship, and hope while searching for the son he loves more than anything.",
+            "year": "2003",
+            "type": "Kids",
+            "poster": "nemo_poster.webp",
+            "logo": "nemo_logo.png",
+            "background": "nemo_back.jpg",
+            "rating": 8.2,
+            "trailer_id": "2zLkasScy7A"
+        },
+        {
+            "id": 53,
+            "title": "Toy Story 3",
+            "description": "As their owner prepares for a new chapter, the beloved toys face unexpected adventures that strengthen their friendship and remind them of the importance of never giving up.",
+            "year": "2010",
+            "type": "Kids",
+            "poster": "toy3_poster.webp",
+            "logo": "toy3_logo.png",
+            "background": "toy3_back.jpg",
+            "rating": 8.2,
+            "trailer_id": "JcpWXaA2qeg"
+        },
+        {
+            "id": 5,
+            "title": "How to Train Your Dragon",
+            "description": "A young Viking forms an unlikely friendship with a mysterious dragon, changing the future of his village while discovering courage, compassion, and the true meaning of being a hero.",
+            "year": "2010",
+            "type": "Adventure",
+            "poster": "dragon1_poster.webp",
+            "logo": "dragon1_logo.png",
+            "background": "dragon1_back.jpg",
+            "rating": 8.1,
+            "trailer_id": "oKiYuIsPxYk"
         }
     ]
 }

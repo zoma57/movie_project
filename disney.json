@@ -1,0 +1,124 @@
+{
+    "Disney": [
+        {
+            "id": 55,
+            "title": "Raya and the Last Dragon",
+            "description": "In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.",
+            "year": "2021",
+            "type": "Family",
+            "poster": "raya_poster.jpg",
+            "logo": "raya_logo.png",
+            "background": "raya_back.jpg",
+            "rating": 7.3,
+            "trailer_id": "1VIZ89FEjYI"
+        },
+        {
+            "id": 56,
+            "title": "Moana",
+            "description": "In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.",
+            "year": "2016",
+            "type": "Family",
+            "poster": "moana_poster.jpg",
+            "logo": "moana_logo.png",
+            "background": "moana_back.jpg",
+            "rating": 7.6,
+            "trailer_id": "LKFuXETZUsI"
+        },
+        {
+            "id": 57,
+            "title": "Aladdin",
+            "description": "A kindhearted street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make their deepest wishes come true.",
+            "year": "1992",
+            "type": "Family",
+            "poster": "aladdin_poster.jpg",
+            "logo": "aladdin_logo.png",
+            "background": "aladdin_back.jpg",
+            "rating": 8.0,
+            "trailer_id": "e-W0NqR0Yug"
+        },
+        {
+            "id": 58,
+            "title": "Pocahontas",
+            "description": "An English soldier and the daughter of an Algonquin chief share a romance when English colonists invade seventeenth-century Virginia.",
+            "year": "1995",
+            "type": "Family",
+            "poster": "pocahontas_poster.jpg",
+            "logo": "pocahontas_logo.png",
+            "background": "pocahontas_back.jpg",
+            "rating": 6.7,
+            "trailer_id": "2OENx5JqC7Y"
+        },
+        {
+            "id": 59,
+            "title": "Mulan",
+            "description": "To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.",
+            "year": "1998",
+            "type": "Family",
+            "poster": "mulan_poster.jpg",
+            "logo": "mulan_logo.png",
+            "background": "mulan_back.jpg",
+            "rating": 7.6,
+            "trailer_id": "wAbGAkkOgcM"
+        },
+        {
+            "id": 60,
+            "title": "Beauty and the Beast",
+            "description": "A prince cursed to spend his days as a hideous monster sets out to regain his humanity by earning a young woman's love.",
+            "year": "1991",
+            "type": "Family",
+            "poster": "beauty_poster.jpg",
+            "logo": "beauty_logo.png",
+            "background": "beauty_back.jpg",
+            "rating": 8.0,
+            "trailer_id": "tRlzmyD4Ruo"
+        },
+        {
+            "id": 61,
+            "title": "The Little Mermaid",
+            "description": "A mermaid princess makes a Faustian bargain in an attempt to become human and win a prince's love.",
+            "year": "1989",
+            "type": "Family",
+            "poster": "littleMer_poster.jpg",
+            "logo": "littleMer_logo.png",
+            "background": "littleMer_back.jpg",
+            "rating": 7.6,
+            "trailer_id": "ZGZX5-PAwR8"
+        },
+        {
+            "id": 62,
+            "title": "Sleeping Beauty",
+            "description": "After being snubbed by the royal family, a malevolent fairy places a curse on a princess which only a prince can break, along with the help of three good fairies.",
+            "year": "1959",
+            "type": "Family",
+            "poster": "sleeping_poster.jpg",
+            "logo": "sleeping_logo.png",
+            "background": "sleeping_back.jpg",
+            "rating": 7.2,
+            "trailer_id": "KZYJ9b2eLSE"
+        },
+        {
+            "id": 63,
+            "title": "Snow White and the Seven Dwarfs",
+            "description": "Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household.",
+            "year": "1937",
+            "type": "Family",
+            "poster": "snow_poster.jpg",
+            "logo": "snow_logo.png",
+            "background": "snow_back.jpg",
+            "rating": 7.2,
+            "trailer_id": "ncIKk3s8ZDA"
+        },
+        {
+            "id": 64,
+            "title": "Cinderella",
+            "description": "When Cinderella's cruel stepmother prevents her from attending the Royal Ball, she gets some unexpected help from the lovable mice Gus and Jaq, and from her Fairy Godmother.",
+            "year": "1950",
+            "type": "Family",
+            "poster": "cinderella_poster.jpg",
+            "logo": "cinderella_logo.png",
+            "background": "cinderella_back.jpg",
+            "rating": 7.3,
+            "trailer_id": "VGi_4tXj2mQ"
+        }
+    ]
+}

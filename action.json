@@ -1,0 +1,124 @@
+{
+    "Action": [
+        {
+            "id": 65,
+            "title": "Transformers One",
+            "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+            "year": "2024",
+            "type": "Action",
+            "poster": "trasformers_poster.jpg",
+            "logo": "trasformers_logo.png",
+            "background": "trasformers_back.jpg",
+            "rating": 7.2,
+            "trailer_id": "u24xIeJ1bS8"
+        },
+        {
+            "id": 66,
+            "title": "The Mitchells vs. the Machines",
+            "description": "A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
+            "year": "2021",
+            "type": "Action",
+            "poster": "mitvsmach_poster.jpg",
+            "logo": "mitvsmach_logo.png",
+            "background": "mitvsmach_back.jpg",
+            "rating": 7.6,
+            "trailer_id": "_akwfRuL4os"
+        },
+        {
+            "id": 67,
+            "title": "DC League of Super-Pets",
+            "description": "Krypto the Super-Dog and Superman are inseparable best friends, sharing the same superpowers and fighting crime in Metropolis side by side.",
+            "year": "2022",
+            "type": "Action",
+            "poster": "dc_poster.jpg",
+            "logo": "dc_logo.png",
+            "background": "dc_back.jpg",
+            "rating": 7.2,
+            "trailer_id": "1jkw2JPCl18"
+        },
+        {
+            "id": 68,
+            "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+            "description": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers.",
+            "year": "2023",
+            "type": "Action",
+            "poster": "ninja_poster.jpg",
+            "logo": "ninja_logo.png",
+            "background": "ninja_back.jpg",
+            "rating": 7.2,
+            "trailer_id": "IHvzw4Ibuho"
+        },
+        {
+            "id": 69,
+            "title": "Megamind",
+            "description": "The supervillain Megamind finally defeats his nemesis, the superhero Metro Man. But without a hero, he loses all purpose and must find a new meaning to his life.",
+            "year": "2010",
+            "type": "Action",
+            "poster": "megamind_poster.jpg",
+            "logo": "megamind_logo.png",
+            "background": "megamind_back.jpg",
+            "rating": 7.3,
+            "trailer_id": "yJtot_f-snU"
+        },
+        {
+            "id": 70,
+            "title": "The Lego Movie",
+            "description": "An ordinary LEGO construction worker, thought to be the prophesied as 'special', is recruited to join a quest to stop an evil tyrant from gluing the LEGO universe into eternal stasis.",
+            "year": "2014",
+            "type": "Action",
+            "poster": "lego_poster.jpg",
+            "logo": "lego_logo.png",
+            "background": "lego_back.jpg",
+            "rating": 7.7,
+            "trailer_id": "fZ_JOBEXQY"
+        },
+        {
+            "id": 71,
+            "title": "The Lego Batman Movie",
+            "description": "A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he has accidentally adopted a teenage orphan.",
+            "year": "2017",
+            "type": "Action",
+            "poster": "legoBat_poster.jpg",
+            "logo": "legoBat_logo.png",
+            "background": "legoBat_back.jpg",
+            "rating": 7.3,
+            "trailer_id": "rGQUKzSDhrg"
+        },
+        {
+            "id": 72,
+            "title": "Big Hero 6",
+            "description": "The special bond that develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who team up with a group of friends to form a band of high-tech heroes.",
+            "year": "2014",
+            "type": "Action",
+            "poster": "bigHero6_poster.jpg",
+            "logo": "bigHero6_logo.png",
+            "background": "bigHero6_back.jpg",
+            "rating": 7.8,
+            "trailer_id": "z3biFxZIJOQ"
+        },
+        {
+            "id": 73,
+            "title": "Spider-Man: Into the Spider-Verse",
+            "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+            "year": "2018",
+            "type": "Action",
+            "poster": "SpiderManInto_poster.jpg",
+            "logo": "SpiderManInto_logo.png",
+            "background": "SpiderManInto_back.jpg",
+            "rating": 8.4,
+            "trailer_id": "tg52co5hO2I"
+        },
+        {
+            "id": 74,
+            "title": "Spider-Man: Across the Spider-Verse",
+            "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+            "year": "2023",
+            "type": "Action",
+            "poster": "SpiderManAcross_poster.jpg",
+            "logo": "SpiderManAcross_logo.png",
+            "background": "SpiderManAcross_back.jpg",
+            "rating": 8.7,
+            "trailer_id": "shW9i6k8cB0"
+        }
+    ]
+}

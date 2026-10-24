@@ -1,6 +1,18 @@
 {
     "Latest": [
         {
+            "id": 48,
+            "title": "Minions 3",
+            "description": "The mischievous Minions return for another action-packed adventure filled with laughter, surprising friendships, daring missions, and unforgettable moments that keep everyone smiling from start to finish.",
+            "year": "2026",
+            "type": "Kids",
+            "poster": "minions3_poster.webp",
+            "logo": "minions3_logo.png",
+            "background": "minions3_back.jpg",
+            "rating": 6.8,
+            "trailer_id": "6DxjJzmYsXo"
+        },
+        {
             "id": 2,
             "title": "The Bad Guys 2",
             "description": "The reformed crew is pulled into another thrilling adventure where fresh rivals, daring missions, and unexpected twists push their teamwork, courage, and trust to exciting new limits together.",
@@ -8,7 +20,9 @@
             "type": "Adventure",
             "poster": "badGuys2_poster.webp",
             "logo": "badGuys2_logo.png",
-            "background": "badGuys2_back.jpg"
+            "background": "badGuys2_back.jpg",
+            "rating": 7.5,
+            "trailer_id": "TY1lWh20VSw"
         },
         {
             "id": 25,
@@ -18,7 +32,21 @@
             "type": "Comedy",
             "poster": "zootopia2_poster.webp",
             "logo": "zootopia2_logo.png",
-            "background": "zootopia2_back.jpg"
+            "background": "zootopia2_back.jpg",
+            "rating": 7.5,
+            "trailer_id": "yC-F6-0Uj_8"
+        },
+        {
+            "id": 65,
+            "title": "Transformers One",
+            "description": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+            "year": "2024",
+            "type": "Action",
+            "poster": "trasformers_poster.jpg",
+            "logo": "trasformers_logo.png",
+            "background": "trasformers_back.jpg",
+            "rating": 7.2,
+            "trailer_id": "u24xIeJ1bS8"
         },
         {
             "id": 19,
@@ -28,7 +56,9 @@
             "type": "Comedy",
             "poster": "panda4_poster.webp",
             "logo": "panda4_logo.png",
-            "background": "panda4_back.jpg"
+            "background": "panda4_back.jpg",
+            "rating": 7.0,
+            "trailer_id": "_inKs4eeHiI"
         },
         {
             "id": 34,
@@ -38,7 +68,33 @@
             "type": "Family",
             "poster": "insideOut2_poster.webp",
             "logo": "insideOut2_logo.png",
-            "background": "insideOut2_back.jpg"
+            "background": "insideOut2_back.jpg",
+            "rating": 7.8,
+            "trailer_id": "LEjhY15eCx0"
+        },
+        {
+            "id": 74,
+            "title": "Spider-Man: Across the Spider-Verse",
+            "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+            "year": "2023",
+            "type": "Action",
+            "poster": "SpiderManAcross_poster.jpg",
+            "logo": "SpiderManAcross_logo.png",
+            "background": "SpiderManAcross_back.jpg",
+            "rating": 8.7,
+            "trailer_id": "shW9i6k8cB0"
+        },
+        {
+            "id": 68,
+            "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+            "description": "After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers.",
+            "year": "2023",
+            "type": "Action",
+            "poster": "ninja_poster.jpg",
+            "logo": "ninja_logo.png",
+            "background": "ninja_back.jpg",
+            "rating": 7.2,
+            "trailer_id": "IHvzw4Ibuho"
         },
         {
             "id": 28,
@@ -48,37 +104,9 @@
             "type": "Family",
             "poster": "elemental_poster.webp",
             "logo": "elemental_logo.png",
-            "background": "elemental_back.jpg"
-        },
-        {
-            "id": 48,
-            "title": "Minions 3",
-            "description": "The mischievous Minions return for another action-packed adventure filled with laughter, surprising friendships, daring missions, and unforgettable moments that keep everyone smiling from start to finish.",
-            "year": "2026",
-            "type": "Kids",
-            "poster": "minions3_poster.webp",
-            "logo": "minions3_logo.png",
-            "background": "minions3_back.jpg"
-        },
-        {
-            "id": 45,
-            "title": "Luca",
-            "description": "A curious sea monster explores the beautiful Italian coast with his best friend, discovering freedom, friendship, and the courage to embrace who he truly is every day.",
-            "year": "2021",
-            "type": "Kids",
-            "poster": "luca_poster.webp",
-            "logo": "luca_logo.png",
-            "background": "luca_back.jpg"
-        },
-        {
-            "id": 29,
-            "title": "Encanto",
-            "description": "A magical family blessed with extraordinary gifts faces unexpected challenges as one determined girl discovers that love, hope, and unity are their greatest strengths of all.",
-            "year": "2021",
-            "type": "Family",
-            "poster": "encanto_poster.webp",
-            "logo": "encanto_logo.png",
-            "background": "encanto_back.jpg"
+            "background": "elemental_back.jpg",
+            "rating": 7.0,
+            "trailer_id": "hXzcyx9V0xw"
         },
         {
             "id": 10,
@@ -88,17 +116,9 @@
             "type": "Adventure",
             "poster": "pussBoots2_poster.webp",
             "logo": "pussBoots2_logo.png",
-            "background": "pussBoots2_back.jpg"
-        },
-        {
-            "id": 1,
-            "title": "The Bad Guys",
-            "description": "A clever gang of notorious animal thieves attempts to change their reputation by becoming model citizens, but an unexpected mission challenges their loyalty, friendship, and every choice they make.",
-            "year": "2022",
-            "type": "Adventure",
-            "poster": "badGuys1_poster.webp",
-            "logo": "badGuys1_logo.png",
-            "background": "badGuys1_back.jpg"
+            "background": "pussBoots2_back.jpg",
+            "rating": 7.9,
+            "trailer_id": "RqrXhwS33Ls"
         }
     ]
 }

@@ -8,7 +8,9 @@
             "type": "Comedy",
             "poster": "madagascar1_poster.webp",
             "logo": "madagascar1_logo.png",
-            "background": "madagascar1_back.jpg"
+            "background": "madagascar1_back.jpg",
+            "rating": 6.9,
+            "trailer_id": "fq5zOUgwsQo"
         },
         {
             "id": 13,
@@ -18,7 +20,9 @@
             "type": "Comedy",
             "poster": "madagascar2_poster.webp",
             "logo": "madagascar2_logo.png",
-            "background": "madagascar2_back.jpg"
+            "background": "madagascar2_back.jpg",
+            "rating": 6.6,
+            "trailer_id": "ZzE2h70R-zM"
         },
         {
             "id": 14,
@@ -28,7 +32,9 @@
             "type": "Comedy",
             "poster": "monsters1_poster.webp",
             "logo": "monsters1_logo.png",
-            "background": "monsters1_back.jpg"
+            "background": "monsters1_back.jpg",
+            "rating": 8.1,
+            "trailer_id": "8IBNZ6O2kMk"
         },
         {
             "id": 15,
@@ -38,7 +44,9 @@
             "type": "Comedy",
             "poster": "monsters2_poster.webp",
             "logo": "monsters2_logo.png",
-            "background": "monsters2_back.jpg"
+            "background": "monsters2_back.jpg",
+            "rating": 7.3,
+            "trailer_id": "xBzPioph8PI"
         },
         {
             "id": 16,
@@ -48,7 +56,9 @@
             "type": "Comedy",
             "poster": "panda1_poster.webp",
             "logo": "panda1_logo.png",
-            "background": "panda1_back.jpg"
+            "background": "panda1_back.jpg",
+            "rating": 7.6,
+            "trailer_id": "PXi3Mv6KMzY"
         },
         {
             "id": 17,
@@ -58,7 +68,9 @@
             "type": "Comedy",
             "poster": "panda2_poster.webp",
             "logo": "panda2_logo.png",
-            "background": "panda2_back.jpg"
+            "background": "panda2_back.jpg",
+            "rating": 7.3,
+            "trailer_id": "YIW5oo-8NYw"
         },
         {
             "id": 18,
@@ -68,7 +80,9 @@
             "type": "Comedy",
             "poster": "panda3_poster.webp",
             "logo": "panda3_logo.png",
-            "background": "panda3_back.jpg"
+            "background": "panda3_back.jpg",
+            "rating": 7.1,
+            "trailer_id": "10r9ozshGVE"
         },
         {
             "id": 19,
@@ -78,7 +92,9 @@
             "type": "Comedy",
             "poster": "panda4_poster.webp",
             "logo": "panda4_logo.png",
-            "background": "panda4_back.jpg"
+            "background": "panda4_back.jpg",
+            "rating": 7.0,
+            "trailer_id": "_inKs4eeHiI"
         },
         {
             "id": 20,
@@ -88,7 +104,9 @@
             "type": "Comedy",
             "poster": "shrek1_poster.webp",
             "logo": "shrek1_logo.png",
-            "background": "shrek1_back.jpg"
+            "background": "shrek1_back.jpg",
+            "rating": 7.9,
+            "trailer_id": "CwXOrWvPBPk"
         },
         {
             "id": 21,
@@ -98,7 +116,9 @@
             "type": "Comedy",
             "poster": "shrek2_poster.webp",
             "logo": "shrek2_logo.png",
-            "background": "shrek2_back.jpg"
+            "background": "shrek2_back.jpg",
+            "rating": 7.3,
+            "trailer_id": "V6X5ti4yBgk"
         },
         {
             "id": 22,
@@ -108,7 +128,9 @@
             "type": "Comedy",
             "poster": "shrek3_poster.webp",
             "logo": "shrek3_logo.png",
-            "background": "shrek3_back.jpg"
+            "background": "shrek3_back.jpg",
+            "rating": 6.1,
+            "trailer_id": "rJqE_5xH53U"
         },
         {
             "id": 23,
@@ -118,7 +140,9 @@
             "type": "Comedy",
             "poster": "shrek4_poster.webp",
             "logo": "shrek4_logo.png",
-            "background": "shrek4_back.jpg"
+            "background": "shrek4_back.jpg",
+            "rating": 6.3,
+            "trailer_id": "YuC1g0k4QcE"
         },
         {
             "id": 24,
@@ -128,7 +152,9 @@
             "type": "Comedy",
             "poster": "zootopia1_poster.webp",
             "logo": "zootopia1_logo.png",
-            "background": "zootopia1_back.jpg"
+            "background": "zootopia1_back.jpg",
+            "rating": 8.0,
+            "trailer_id": "jWM0ct-OLsM"
         },
         {
             "id": 25,
@@ -138,7 +164,9 @@
             "type": "Comedy",
             "poster": "zootopia2_poster.webp",
             "logo": "zootopia2_logo.png",
-            "background": "zootopia2_back.jpg"
+            "background": "zootopia2_back.jpg",
+            "rating": 7.5,
+            "trailer_id": "yC-F6-0Uj_8"
         }
     ]
 }

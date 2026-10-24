@@ -8,7 +8,9 @@
             "type": "Family",
             "poster": "brave_poster.webp",
             "logo": "brave_logo.png",
-            "background": "brave_back.jpg"
+            "background": "brave_back.jpg",
+            "rating": 7.1,
+            "trailer_id": "TEHWDA_6e3M"
         },
         {
             "id": 27,
@@ -18,7 +20,9 @@
             "type": "Family",
             "poster": "dinosaur_poster.webp",
             "logo": "dinosaur_logo.png",
-            "background": "dinosaur_back.jpg"
+            "background": "dinosaur_back.jpg",
+            "rating": 6.7,
+            "trailer_id": "O-RgquKVTPE"
         },
         {
             "id": 28,
@@ -28,7 +32,9 @@
             "type": "Family",
             "poster": "elemental_poster.webp",
             "logo": "elemental_logo.png",
-            "background": "elemental_back.jpg"
+            "background": "elemental_back.jpg",
+            "rating": 7.0,
+            "trailer_id": "hXzcyx9V0xw"
         },
         {
             "id": 29,
@@ -38,7 +44,9 @@
             "type": "Family",
             "poster": "encanto_poster.webp",
             "logo": "encanto_logo.png",
-            "background": "encanto_back.jpg"
+            "background": "encanto_back.jpg",
+            "rating": 7.2,
+            "trailer_id": "CaimKeDcudo"
         },
         {
             "id": 30,
@@ -48,7 +56,9 @@
             "type": "Family",
             "poster": "frog_poster.webp",
             "logo": "frog_logo.png",
-            "background": "frog_back.jpg"
+            "background": "frog_back.jpg",
+            "rating": 7.1,
+            "trailer_id": "CBqj9CqKAZQ"
         },
         {
             "id": 31,
@@ -58,7 +68,9 @@
             "type": "Family",
             "poster": "frozen1_poster.webp",
             "logo": "frozen1_logo.png",
-            "background": "frozen1_back.jpg"
+            "background": "frozen1_back.jpg",
+            "rating": 7.4,
+            "trailer_id": "TbQm5doF_Uc"
         },
         {
             "id": 32,
@@ -68,7 +80,9 @@
             "type": "Family",
             "poster": "frozen2_poster.webp",
             "logo": "frozen2_logo.png",
-            "background": "frozen2_back.jpg"
+            "background": "frozen2_back.jpg",
+            "rating": 6.8,
+            "trailer_id": "Zi4LMpSDccc"
         },
         {
             "id": 33,
@@ -78,7 +92,9 @@
             "type": "Family",
             "poster": "insideOut1_poster.webp",
             "logo": "insideOut1_logo.png",
-            "background": "insideOut1_back.jpg"
+            "background": "insideOut1_back.jpg",
+            "rating": 8.1,
+            "trailer_id": "yRUAzGQ3nSY"
         },
         {
             "id": 34,
@@ -88,7 +104,9 @@
             "type": "Family",
             "poster": "insideOut2_poster.webp",
             "logo": "insideOut2_logo.png",
-            "background": "insideOut2_back.jpg"
+            "background": "insideOut2_back.jpg",
+            "rating": 7.8,
+            "trailer_id": "LEjhY15eCx0"
         },
         {
             "id": 35,
@@ -98,7 +116,9 @@
             "type": "Family",
             "poster": "lionKing_poster.webp",
             "logo": "lionKing_logo.png",
-            "background": "lionKing_back.jpg"
+            "background": "lionKing_back.jpg",
+            "rating": 8.5,
+            "trailer_id": "4sj1MT05lAA"
         },
         {
             "id": 36,
@@ -108,7 +128,9 @@
             "type": "Family",
             "poster": "soul_poster.webp",
             "logo": "soul_logo.png",
-            "background": "soul_back.jpg"
+            "background": "soul_back.jpg",
+            "rating": 8.0,
+            "trailer_id": "Gs--6c7bzWA"
         },
         {
             "id": 37,
@@ -118,7 +140,9 @@
             "type": "Family",
             "poster": "tangled_poster.webp",
             "logo": "tangled_logo.png",
-            "background": "tangled_back.jpg"
+            "background": "tangled_back.jpg",
+            "rating": 7.7,
+            "trailer_id": "2f516ZLyC6U"
         },
         {
             "id": 38,
@@ -128,7 +152,9 @@
             "type": "Family",
             "poster": "theIncredibles_poster.webp",
             "logo": "theIncredibles_logo.png",
-            "background": "theIncredibles_back.jpg"
+            "background": "theIncredibles_back.jpg",
+            "rating": 8.0,
+            "trailer_id": "eZbzbC9285I"
         },
         {
             "id": 39,
@@ -138,7 +164,9 @@
             "type": "Family",
             "poster": "up_poster.webp",
             "logo": "up_logo.png",
-            "background": "up_back.jpg"
+            "background": "up_back.jpg",
+            "rating": 8.3,
+            "trailer_id": "ORFWdXl_zJ4"
         },
         {
             "id": 40,
@@ -148,7 +176,9 @@
             "type": "Family",
             "poster": "wall_poster.webp",
             "logo": "wall_logo.png",
-            "background": "wall_back.jpg"
+            "background": "wall_back.jpg",
+            "rating": 8.4,
+            "trailer_id": "CZ1CATNvBgM"
         }
     ]
 }
