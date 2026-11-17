@@ -94,22 +94,3 @@ section {
     }
 }
 
-#Top {
-    @include position(fixed, initial, initial, 30px, 30px, 999);
-    background-color: $accent-color;
-    color: $primary-color;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none;
-    font-weight: bold;
-    transition: .5s;
-    box-shadow: 0 0 10px rgba($accent-color, 0.5);
-
-    &:hover {
-        background-color: $text-light;
-        color: $primary-color;
-        transform: translateY(-5px);
-    }
-}
-
