@@ -1,0 +1,225 @@
+@use "./../abstracts/variables"as *;
+@use "./../abstracts/global"as *;
+@use "./../abstracts/mixins"as *;
+
+
+header#Home {
+    min-height: 100vh;
+    @include flex(center, center);
+    @include position(relative);
+    overflow: hidden;
+
+    padding-top: 80px;
+
+    #homeBackground {
+        @include position(absolute, 0, 0, 0, 0, 0);
+        background-size    : cover;
+        background-position: center;
+        background-repeat  : no-repeat;
+
+        transition-property       : background-image;
+        transition-duration       : 1s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .hero-overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index         : 0;
+
+
+        @include respond(450) {
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        @include respond(850) {
+            background-color: rgba(0, 0, 0, 0.65);
+        }
+    }
+
+    .hero-content-wrapper {
+        z-index: 1;
+        width  : 100%;
+
+
+        @include respond(350) {
+            padding: 0 10px;
+        }
+
+        @include respond(450) {
+            padding: 0 15px;
+        }
+
+        @include respond(650) {
+            padding: 0 20px;
+        }
+
+        @include respond(850) {
+            padding: 0 25px;
+        }
+
+        @include respond(1050) {
+            padding: 0 30px;
+        }
+    }
+
+    .part1,
+    .part2 {
+        text-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+    }
+
+    .hero-title {
+        font-size     : 48px;
+        letter-spacing: 2px;
+
+
+        @include respond(350) {
+            font-size: 24px;
+        }
+
+        @include respond(450) {
+            font-size: 28px;
+        }
+
+        @include respond(650) {
+            font-size     : 32px;
+            letter-spacing: 1px;
+        }
+
+        @include respond(850) {
+            font-size: 38px;
+        }
+
+        @include respond(1050) {
+            font-size: 42px;
+        }
+    }
+
+    .hero-desc {
+        font-size  : 24px;
+        line-height: 1.8;
+
+
+        @include respond(350) {
+            font-size: 14px;
+        }
+
+        @include respond(450) {
+            font-size  : 15px;
+            line-height: 1.6;
+        }
+
+        @include respond(650) {
+            font-size    : 16px;
+            margin-bottom: 20px;
+        }
+
+        @include respond(850) {
+            font-size  : 18px;
+            line-height: 1.7;
+        }
+
+        @include respond(1050) {
+            font-size: 20px;
+        }
+    }
+
+    .play-text {
+        font-size: 24px;
+
+
+        @include respond(450) {
+            font-size: 16px;
+        }
+
+        @include respond(650) {
+            font-size: 18px;
+        }
+
+        @include respond(850) {
+            font-size: 20px;
+        }
+    }
+
+    .hero-animated-text {
+        font-size: 40px;
+
+
+        @include respond(350) {
+            font-size: 20px;
+        }
+
+        @include respond(450) {
+            font-size: 22px;
+        }
+
+        @include respond(650) {
+            font-size: 26px;
+        }
+
+        @include respond(850) {
+            font-size: 30px;
+        }
+
+        @include respond(1050) {
+            font-size: 36px;
+        }
+    }
+
+    .cd-headline {
+        white-space: nowrap !important;
+
+        .cd-words-wrapper {
+            white-space: nowrap !important;
+            overflow   : hidden;
+        }
+
+        b {
+            white-space: nowrap !important;
+        }
+    }
+
+    .videoIcon {
+        cursor: pointer;
+
+        .custom-play-btn {
+            width              : 60px;
+            height             : 60px;
+            font-size          : 20px;
+            background-color   : $accent-color;
+            color              : $text-light;
+            box-shadow         : 0 0 15px rgba(229, 9, 20, 0.4);
+            transition-duration: .5s;
+
+
+            @include respond(350) {
+                width    : 40px;
+                height   : 40px;
+                font-size: 12px;
+            }
+
+            @include respond(450) {
+                width    : 45px;
+                height   : 45px;
+                font-size: 14px;
+            }
+
+            @include respond(650) {
+                width    : 50px;
+                height   : 50px;
+                font-size: 16px;
+            }
+
+            @include respond(850) {
+                width    : 55px;
+                height   : 55px;
+                font-size: 18px;
+            }
+
+            &:hover {
+                transform       : scale(1.1);
+                background-color: $text-light !important;
+                color           : $accent-color !important;
+            }
+        }
+    }
+}

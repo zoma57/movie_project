@@ -1,0 +1,371 @@
+@use "./../abstracts/variables"as *;
+@use "./../abstracts/global"as *;
+@use "./../abstracts/mixins"as *;
+
+
+.popup {
+    @include position(fixed, 0, 0, initial, initial, 9999);
+    width           : 100%;
+    height          : 100vh;
+    background-color: rgba($primary-color, 0.85);
+    @include flex;
+    opacity        : 0;
+    visibility     : hidden;
+    transition     : .5s;
+    backdrop-filter: blur(5px);
+
+    *::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background-color: rgba(255, 255, 255, 0.05);
+        border-radius   : 10px;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: $accent-color;
+        border-radius   : 10px;
+
+        &:hover {
+            background-color: $accent-color;
+        }
+    }
+
+    &.active {
+        opacity   : 1;
+        visibility: visible;
+    }
+
+    .box {
+        @include position(relative);
+        transform: scale(0);
+
+        transition-property       : transform;
+        transition-duration       : 0.5s;
+        transition-timing-function: ease;
+
+        background-color: $primary-color;
+        box-shadow      : 0 10px 30px rgba(0, 0, 0, 0.7);
+        border          : 1px solid rgba($accent-color, 0.3);
+    }
+
+    &.active .box {
+        transform: scale(1);
+    }
+
+    .head {
+        border-bottom: 2px solid $accent-color;
+        @include position(relative);
+
+        i.fa-x {
+            cursor    : pointer;
+            transition: .5s;
+            color     : $text-light;
+
+            &:hover {
+                color    : $accent-color !important;
+                transform: rotate(90deg) scale(1.2);
+            }
+        }
+    }
+}
+
+.clickable-icon {
+    cursor: pointer;
+}
+
+[data-popup-name="movieDetails"] {
+    .movie-details-box {
+        max-width : 850px;
+        width     : 95%;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .popup-bg-img {
+        height    : 350px;
+        object-fit: cover;
+        filter    : brightness(0.3);
+    }
+
+    .popup-poster-img {
+        max-height: 250px;
+        border    : 2px solid $accent-color;
+        box-shadow: 0 0 20px rgba($primary-color, 0.8);
+    }
+
+    .popup-logo-img {
+        max-height: 70px;
+    }
+
+    .content-overlay {
+        background: linear-gradient(to right, rgba($primary-color, 0.95) 0%, rgba($primary-color, 0.75) 60%, rgba($primary-color, 0.2) 100%);
+    }
+
+    #popupRatingStars {
+        color         : #f1c40f;
+        letter-spacing: 2px;
+    }
+
+    .btn {
+        transition: .5s;
+
+        &:hover {
+            transform : translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+    }
+
+
+    .reviews-wrapper {
+        background-color: $primary-color !important;
+        border-top      : 1px solid rgba($accent-color, 0.2);
+
+        .reviews-scroll-area {
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .review-item {
+            background-color: $primary-color;
+            padding         : 10px 15px;
+            border-radius   : 8px;
+            margin-bottom   : 10px;
+            border-left     : 3px solid $accent-color;
+
+            .reviewer-name {
+                color      : $accent-color;
+                font-weight: bold;
+                font-size  : 14px;
+            }
+
+            .review-text {
+                font-size: 14px;
+                color    : $text-light;
+                margin   : 5px 0 0 0;
+            }
+        }
+
+        .add-review-box {
+            input {
+                background-color: rgba($primary-color, 0.5) !important;
+                border          : 1px solid rgba($accent-color, 0.5) !important;
+                color           : $text-light !important;
+
+                &:focus {
+                    box-shadow  : 0 0 5px rgba($accent-color, 0.5) !important;
+                    border-color: $accent-color !important;
+                }
+
+                &::placeholder {
+                    color: rgba($text-light, 0.6);
+                }
+            }
+
+            .review-submit-btn {
+                background-color: #00a8ff;
+                color           : #fff;
+            }
+        }
+    }
+}
+
+[data-popup-name="trailer"] {
+    .trailer-box {
+        max-width: 900px;
+        width    : 95%;
+    }
+
+    .trailer-iframe-container {
+        aspect-ratio: 16/9;
+        position    : relative;
+    }
+}
+
+[data-popup-name="authPopup"] {
+    .auth-box {
+        max-width       : 400px;
+        width           : 90%;
+        background-color: #0b2046;
+        border          : 1px solid $accent-color;
+    }
+
+    .auth-submit-btn {
+        background-color   : $text-light;
+        transition-duration: .5s;
+
+        &:hover {
+            background-color: $accent-color;
+        }
+    }
+
+    .form-control {
+        background-color: rgba($primary-color, 0.5);
+        border          : 1px solid rgba($text-light, 0.2);
+        color           : $text-light;
+        padding         : 12px;
+        transition      : .5s;
+
+        &:focus {
+            background-color: rgba($primary-color, 0.8);
+            border-color    : $accent-color;
+            box-shadow      : 0 0 10px rgba($accent-color, 0.3);
+        }
+
+        &::placeholder {
+            color: rgba($text-light, 0.6);
+        }
+    }
+
+    #authErrorMsg {
+        padding         : 12px;
+        font-size       : 14px;
+        border-radius   : 8px;
+        margin-bottom   : 15px;
+        background-color: rgba(220, 53, 69, 0.1);
+        border          : 1px solid #dc3545;
+        color           : #ff6b6b;
+        text-align      : center;
+        font-weight     : 500;
+    }
+}
+
+[data-popup-name="dynamicListPopup"] {
+
+
+    .dynamic-list-box {
+        max-width       : 1000px;
+        width           : 95%;
+        max-height      : 85vh;
+        background-color: #0b1120;
+        border-radius   : 16px;
+        border          : 1px solid rgba($accent-color, 0.3);
+        box-shadow      : 0 25px 50px rgba(0, 0, 0, 0.8);
+        display         : flex;
+        flex-direction  : column;
+        overflow        : hidden;
+    }
+
+
+    .head {
+        display         : flex;
+        justify-content : space-between;
+        align-items     : center;
+        padding         : 20px 25px;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-bottom   : 1px solid rgba(255, 255, 255, 0.05);
+
+        h3 {
+            margin     : 0;
+            color      : $accent-color;
+            font-size  : 1.5rem;
+            font-weight: bold;
+        }
+
+        i.fa-x {
+            font-size: 1.2rem;
+            padding  : 5px;
+        }
+    }
+
+
+    #searchContainer {
+        padding: 20px 25px 5px;
+
+        input {
+            width           : 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            border          : 2px solid rgba(255, 255, 255, 0.1);
+            color           : $text-light;
+            padding         : 15px 25px;
+            border-radius   : 50px;
+            font-size       : 1.1rem;
+            transition      : all 0.3s ease;
+
+            &:focus {
+                background-color: rgba(0, 0, 0, 0.8);
+                border-color    : $accent-color;
+                box-shadow      : 0 0 15px rgba($accent-color, 0.3);
+                outline         : none;
+            }
+
+            &::placeholder {
+                color: rgba($text-light, 0.4);
+            }
+        }
+    }
+
+
+    .row {
+
+
+
+        display              : grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap                  : 25px;
+        margin               : 0 !important;
+        padding              : 20px;
+
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+
+        @media (max-width: 576px) {
+            grid-template-columns: 1fr !important;
+        }
+
+        >div[class*="col-"] {
+            width    : 100% !important;
+            max-width: 100% !important;
+            padding  : 0 !important;
+            margin   : 0 !important;
+
+            visibility: visible !important;
+            opacity   : 1 !important;
+            animation : none !important;
+            transform : none !important;
+        }
+
+
+
+
+        height    : auto !important;
+        max-height: 60vh;
+        overflow-y: auto;
+    }
+}
+
+
+.movie-card {
+    height: 100%;
+
+    .overlay h4 {
+        font-size: 15px;
+    }
+
+    .btn {
+        padding  : 6px 12px;
+        font-size: 13px;
+    }
+}
+
+
+.content-area::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content-area::-webkit-scrollbar-track {
+    background   : rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.content-area::-webkit-scrollbar-thumb {
+    background   : rgba($accent-color, 0.7);
+    border-radius: 10px;
+}
+
+.content-area::-webkit-scrollbar-thumb:hover {
+    background: $accent-color;
+}

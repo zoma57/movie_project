@@ -1,0 +1,79 @@
+@use "./../abstracts/variables" as *;
+@use "./../abstracts/global" as *;
+@use "./../abstracts/mixins" as *;
+
+
+@keyframes waveEven {
+    0%, 100% { top: 40px; }
+    50% { top: 0px; }
+}
+
+@keyframes waveOdd {
+    0%, 100% { top: 0px; }
+    50% { top: 40px; }
+}
+
+@keyframes waveEvenTablet {
+    0%, 100% { top: 20px; }
+    50% { top: 0px; }
+}
+
+@keyframes waveOddTablet {
+    0%, 100% { top: 0px; }
+    50% { top: 20px; }
+}
+
+#LatestContent {
+    padding: 20px 0; 
+    
+    @include respond(650) {
+        padding: 10px 0;
+    }
+    
+    .owl-stage-outer {
+        padding-top: 15px;
+        padding-bottom: 60px;
+
+        @include respond(850) {
+            padding-bottom: 40px;
+        }
+        
+        @include respond(650) {
+            padding-top: 10px;
+            padding-bottom: 15px;
+        }
+    }
+    
+    .owl-item {
+        position: relative; 
+        
+    
+        &:nth-child(even) {
+            animation: waveEven 4s ease-in-out infinite;
+
+            @include respond(850) {
+                animation-name: waveEvenTablet;
+            }
+            
+        
+            @include respond(650) {
+                animation: none !important;
+                top: 0 !important; 
+            }
+        }
+        
+    
+        &:nth-child(odd) {
+            animation: waveOdd 4s ease-in-out infinite;
+
+            @include respond(850) {
+                animation-name: waveOddTablet; 
+            }
+            
+            @include respond(650) {
+                animation: none !important;
+                top: 0 !important; 
+            }
+        }
+    }
+}

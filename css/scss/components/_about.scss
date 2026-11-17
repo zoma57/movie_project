@@ -1,0 +1,82 @@
+@use "./../abstracts/variables"as *;
+@use "./../abstracts/global"as *;
+@use "./../abstracts/mixins"as *;
+
+#About {
+    padding         : 80px 0;
+    background-color: $secondary-color;
+
+    @include respond(850) {
+        padding: 60px 0;
+    }
+}
+
+.content {
+    @include respond (350) {
+        text-align: center;
+        padding   : 10px 20px;
+    }
+
+    .about-desc {
+        line-height: 1.8;
+        color      : rgba($text-light, 0.8);
+        font-size  : 18px;
+
+        @include respond(450) {
+            font-size: 15px;
+        }
+
+        @include respond(650) {
+            font-size : 16px;
+            margin-top: 20px;
+        }
+
+        @include respond(850) {
+            font-size  : 12px;
+            line-height: 1.6;
+        }
+
+        @include respond(1050) {
+            font-size: 16px;
+        }
+
+
+    }
+}
+
+#aboutPosterSlider {
+    width                     : 100%;
+    max-width                 : 350px;
+    height                    : 525px;
+    background-size           : cover;
+    background-position       : center;
+    background-repeat         : no-repeat;
+    border                    : 2px solid rgba($accent-color, 0.3);
+    transition-property       : background-image;
+    transition-duration       : 1s;
+    transition-timing-function: ease-in-out;
+
+    @include respond(350) {
+        width : 90%;
+        height: 450px;
+    }
+
+    @include respond(650) {
+        width : 60%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    @include respond(850) {
+        height: 500px;
+        width : 90%;
+    }
+
+    @include respond(1050) {
+        width: 100%;
+    }
+
+
+
+
+}

@@ -1,0 +1,28 @@
+@use "./../abstracts/variables"as *;
+@use "./../abstracts/global"as *;
+@use "./../abstracts/mixins"as *;
+
+
+#Top10 {
+    padding         : 20px 0 40px 0;
+    background-color: $secondary-color;
+
+    .owl-item {
+        transform: scale(0.85);
+        opacity  : 0.5;
+
+        transition-property       : transform, opacity;
+        transition-duration       : 0.5s;
+        transition-timing-function: ease;
+    }
+
+    .owl-item.center {
+        transform: scale(1);
+        opacity  : 1;
+        z-index  : 10;
+
+        .movie-card:hover {
+            transform: translateY(-10px);
+        }
+    }
+}
