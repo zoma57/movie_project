@@ -1,0 +1,115 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $primary-color;
+    color: $text-light;
+
+    font-family: 'Montserrat', sans-serif; 
+    overflow-x: hidden;
+}
+
+&::-webkit-scrollbar {
+    width: 14px;
+}
+&::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+&::-webkit-scrollbar-thumb {
+    background: $accent-color;
+    border-radius: 10px;
+}
+&::-webkit-scrollbar-thumb:hover {
+    background: $accent-color;
+}
+
+a {
+    text-decoration: none;
+    color: $accent-color;
+    transition: .5s;
+    
+    &:hover {
+        color: $text-light;
+    }
+}
+
+.accent-text {
+    color: $accent-color !important;
+}
+
+.bg-primary-custom {
+    background-color: $primary-color !important;
+}
+
+section {
+    padding: 80px;
+
+    &:hover {
+        .title h2::after {
+            width: 100%;
+            background-color: $text-light;
+        }
+    }
+
+
+    .title {
+        h2 {
+            @include position(relative);
+            display: inline-block;
+            color: $text-light;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+
+            &::after {
+                content: '';
+                @include position(absolute, initial, 50%, initial, -10px);
+                transform: translateX(-50%);
+                width: 50px;
+                height: 3px;
+                background-color: $accent-color;
+                transition: .5s;
+            }
+        }
+    }
+}
+
+.loadingScreen {
+    @include position(fixed, 0, 0, initial, initial, 99999);
+    width: 100%;
+    height: 100vh;
+    background-color: $primary-color;
+    @include flex;
+    
+    .box {
+        h2 {
+            text-shadow: 0 0 20px $accent-color;
+            letter-spacing: 2px;
+        }
+    }
+}
+
+#Top {
+    @include position(fixed, initial, initial, 30px, 30px, 999);
+    background-color: $accent-color;
+    color: $primary-color;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    transition: .5s;
+    box-shadow: 0 0 10px rgba($accent-color, 0.5);
+
+    &:hover {
+        background-color: $text-light;
+        color: $primary-color;
+        transform: translateY(-5px);
+    }
+}
+
