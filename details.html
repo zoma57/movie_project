@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night</title>
+    <link rel="icon" type="image" href="./images/logo.png">
+
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/plugins/headanimate.css">
+    <link rel="stylesheet" href="./css/plugins/animate.css">
+    <link rel="stylesheet" href="./css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/plugins/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="dark-mode"> 
+<section id="MovieDetailsWrapper" class="position-relative">
+    
+    <div id="MovieBanner">
+        <div id="bannerImage" class="banner-bg"></div>
+        <div class="banner-overlay"></div>
+    </div>
+
+    <div id="MovieDetailsContent" class="container position-relative z-2">
+        <div class="row align-items-center" id="movieDetailsContainer">
+    
+        </div>
+    </div>
+    
+</section>
+<section id="RelatedMovies">
+    <div class="container">
+        <h3 class="section-title mb-5">Related Movies</h3>
+        <div class="owl-carousel owl-theme" id="RelatedMoviesContent">
+    
+        </div>
+    </div>
+</section>
+<div class="popup-overlay" data-popup-name="trailer">
+    <div class="popup-content trailer-content">
+        <div class="ratio ratio-16x9">
+    
+            <iframe id="trailerIframe" src="" allowfullscreen allow="autoplay"></iframe>
+        </div>
+    </div>
+</div>
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/plugins/headanimate.js"></script>
+    <script src="./js/plugins/wow.min.js"></script>
+    <script src="./js/plugins/owl.carousel.min.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
