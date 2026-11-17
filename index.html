@@ -1,9 +1,237 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night</title>
+    <link rel="icon" type="image" href="./images/logo (2).png">
+
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/plugins/headanimate.css">
+    <link rel="stylesheet" href="./css/plugins/animate.css">
+    <link rel="stylesheet" href="./css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/plugins/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body> 
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">
+            <span class="text-light">Movie</span><span class="accent-text">Night</span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 column-gap-3">
+                <li class="nav-item"><a class="nav-link active" href="#Home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#About">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Latest">Latest</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Top10">Top 10</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Categories">Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Contact">Contact Us</a></li>
+            </ul>
+
+            <div class="nav-icons d-flex align-items-center column-gap-3">
+                <a href="#" class="icon-link search-icon" onclick="openPopup('searchPopup')"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#" class="icon-link fav-icon" onclick="openPopup('favoritesPopup')"><i class="fa-solid fa-heart"></i></a>
+                <a href="#" class="icon-link watch-later-icon" onclick="openPopup('watchLaterPopup')"><i class="fa-solid fa-bookmark"></i></a>
+                <div class="auth-buttons">
+                    <button class="btn login-btn rounded-4 px-3 py-1" onclick="openPopup('authPopup')" id="navAuthBtn">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<header id="Home" class="pt-5 mt-5">
+    <div id="homeBackground" class="position-absolute w-100 h-100 top-0 start-0"></div>
+    <div class="overlay position-absolute w-100 h-100 top-0 start-0 hero-overlay"></div>
+    
+    <div class="container h-100 position-relative hero-content-wrapper">
+        <div class="row h-100 align-items-center">
+            
+            <div class="col-md-6 part1 wow animate__fadeInLeft" data-wow-duration="1.5s">
+                <h1 class="accent-text fw-bold mb-4 hero-title">MOVIE NIGHT</h1>
+                <p class="hero-desc mb-4 text-light">
+                  Discover a world of imagination and adventure! Watch your favorite animated movies in high quality, create your watchlists, and share your reviews.
+                </p>
+                <div class="videoIcon d-flex align-items-center">
+                  <a href="#Categories" class="me-3 btn custom-play-btn rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fa-solid fa-play"></i>
+                  </a>
+                  <p class="mb-0 fw-bold play-text text-light">Start Watching</p>
+                </div>
+              </div>
+              
+              <div class="col-md-6 part2 wow animate__fadeInRight" data-wow-duration="1.5s">
+                <div class="cd-intro fw-bold text-light" id="HeadLine">
+                    <h6 class="cd-headline clip is-full-width m-0 hero-animated-text">
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">Action & Heroes.</b>
+                            <b>Disney Princesses.</b>
+                            <b>Comedy & Fun.</b>
+                            <b>Adventure & Fantasy.</b>
+                        </span>
+                    </h6>
+                </div>
+              </div>
+
+        </div>
+    </div>
+</header>
+
+<section id="About" class="py-5 about-section-bg">
+    <div class="container py-4">
+        <div class="row align-items-center">
+            <div class="col-md-6 wow animate__fadeInLeft">
+                <div id="aboutPosterSlider" class="rounded-4 shadow-lg mx-auto"></div>
+            </div>
+            <div class="col-md-6 content wow animate__fadeInRight mt-4 mt-md-0">
+                <h2 class="fw-bold mb-4 display-5">About <span class="accent-text">MovieNight</span></h2>
+                <p class="fs-5 about-desc">
+                    Welcome to the ultimate hub for animated movies! We bring you a vast, carefully curated collection of your favorite cartoons, from action-packed adventures to timeless family classics. Build your watchlists, read community reviews, and dive into a world of imagination.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="Latest" class="py-5">
+    <div class="container">
+        <div class="title text-center wow animate__heartBeat mb-5" data-wow-duration="1.5s">
+            <h2>Latest Additions</h2>
+        </div>
+        <div class="content">
+            <div class="owl-carousel owl-theme mt-4" id="LatestContent"></div>
+        </div>
+    </div>
+</section>
+
+<section id="Top10" class="py-5">
+    <div class="container">
+        <div class="title text-center wow animate__heartBeat my-5" data-wow-duration="1.5s">
+            <h2 class="text-center">Top 10 Rated</h2>
+        </div>
+        <div class="owl-carousel owl-theme mt-4" id="Top10Content"></div>
+    </div>
+</section>
+
+<section id="Categories" class="py-5">
+    <div class="container pt-5">
+        <div class="title text-center mb-5 wow animate__fadeInDown">
+            <h2 class="fw-bold display-5">Categories</h2>
+        </div>
+        <div class="category-menu text-center mb-5 wow animate__fadeInUp" id="categoryMenu"></div>
+        <div class="row row-gap-4" id="CategoriesContent"></div>
+
+        <div class="w-100 d-flex justify-content-center mt-4">
+            <button id="showMoreBtn" class="show-more-btn d-none" onclick="loadMoreMovies()">Show More</button>
+        </div>
+    </div>
+</section>
+
+<section id="Contact" class="py-5">
+    <div class="container pt-5">
+        <div class="title text-center mb-5 wow animate__fadeInDown">
+            <h2 class="fw-bold display-5">Contact <span class="accent-text">Us</span></h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 wow animate__fadeInUp">
+                <form class="contact-box p-4 rounded-4 contact-form-bg">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control border-secondary" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="email" class="form-control border-secondary" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <textarea class="form-control border-secondary" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn px-5 py-2 fs-5 rounded-pill w-50 submit-btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="py-3 text-center bg-black">
+    <p class="m-0">© 2026 <span class="fw-bold accent-text">SemiCode</span>, Ltd. | MovieNight Project.</p>
+</footer>
+
+<div class="popup" data-popup-name="authPopup" onclick="closePopup('authPopup')">
+    <div class="box rounded-4 p-4 auth-box" onclick="event.stopPropagation()">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="fw-bold m-0 accent-text" id="authTitle">Login</h4>
+            <i class="fa-solid fa-x clickable-icon" onclick="closePopup('authPopup')"></i>
+        </div>
+        
+        <form id="loginForm">
+            <div id="loginErrorMsg" class="alert alert-danger d-none"></div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="loginEmail" placeholder="Email Address" required>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="loginPassword" placeholder="Password" required>
+            </div>
+            <button type="button" onclick="validateLogin()" class="btn w-100 fw-bold mb-2 auth-submit-btn">Login</button>
+            <p class="text-center mt-2 fs-6">Don't have an account? <span class="accent-text clickable-icon" onclick="toggleAuth('register')">Register</span></p>
+        </form>
+
+        <form id="registerForm" class="d-none">
+            <div id="authErrorMsg" class="alert alert-danger d-none"></div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="regName" placeholder="Full Name" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="regEmail" placeholder="Email Address" required>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" id="regPassword" placeholder="Password" required>
+            </div>
+            <button type="button" onclick="validateRegister()" class="btn w-100 fw-bold mb-2 auth-submit-btn">Register</button>
+            <p class="text-center mt-2 fs-6">Already have an account? <span class="accent-text clickable-icon" onclick="toggleAuth('login')">Login</span></p>
+        </form>
+    </div>
+</div>
+
+<div class="popup" data-popup-name="dynamicListPopup" onclick="closePopup('dynamicListPopup')">
+    <div class="box rounded-3 p-4 dynamic-list-box" onclick="event.stopPropagation()">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h4 class="fw-bold m-0 accent-text" id="dynamicListTitle">List</h4>
+            <i class="fa-solid fa-x clickable-icon" onclick="closePopup('dynamicListPopup')"></i>
+        </div>
+        
+        <div id="searchContainer" class="mb-4 d-none">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search for a movie...">
+        </div>
+
+        <div class="row row-gap-4" id="dynamicListContent"></div>
+    </div>
+</div>
+
+<div class="loadingScreen">
+    <div class="box text-center">
+        <h2 class="accent-text fw-bold wow animate__heartBeat display-3" data-wow-duration="2s">MovieNight</h2>
+        <p class= "mt-2">Preparing Safe Content...</p>
+    </div>
+</div>
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/plugins/headanimate.js"></script>
+    <script src="./js/plugins/wow.min.js"></script>
+    <script src="./js/plugins/owl.carousel.min.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/index.js"></script>
+</body>
 </html>
